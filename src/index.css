@@ -1,0 +1,51 @@
+body{
+  width: 20em;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: azure;
+  background-color: antiquewhite;
+}
+.App{
+  background-image: url(../images/background_photo.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px;
+  position: relative;
+  top: 40px;
+}
+.individualOption{
+  display: flex;
+  border: 1px solid black;
+
+}
+.rightAnswers{
+  display: flex;
+  border: 1px solid black;
+}
+.selected{
+  background-color: greenyellow;
+}
+.enable{
+pointer-events: all;
+background-color:greenyellow;
+cursor: pointer;
+}
+.disable{
+  pointer-events: none;
+  background-color: gray;
+}
+.restart_btn{
+  background-color:greenyellow;
+  cursor: pointer;
+  position : relative;
+  left: 90px;
+  top: 8px;
+}
+.next_btn{
+  position : relative;
+  left: 90px;
+  top: 8px;
+}
