@@ -1,12 +1,17 @@
+
+
 body{
-  width: 20em;
+  
+  height: 100vh;
   margin: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   color: azure;
-  background-color: antiquewhite;
+  background-color: gray;
+  
+  position : relative;
 }
 .App{
   background-image: url(../images/background_photo.jpg) ;
@@ -14,11 +19,17 @@ body{
   background-repeat: no-repeat;
   padding: 40px;
   position: relative;
-  top: 40px;
+  height: 50vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
+
 .individualOption{
   display: flex;
-  border: 1px solid black;
+  border: 1px solid gray;
+cursor: pointer;
 
 }
 .rightAnswers{
@@ -46,6 +57,5 @@ cursor: pointer;
 }
 .next_btn{
   position : relative;
-  left: 90px;
   top: 8px;
 }

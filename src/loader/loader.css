@@ -1,0 +1,51 @@
+
+.dots {
+   width: 4.5px;
+   height: 4.5px;
+   border-radius: 50%;
+   color: black;
+   box-shadow: 21.3px -21.3px 0 0px, 42.6px -21.3px 0 0px, 63.8px -21.3px 0 0px,
+          21.3px 0     0 5.6px, 42.6px 0     0 5.6px, 63.8px 0     0 5.6px,
+          21.3px 21.3px  0 0px, 42.6px 21.3px  0 0px, 63.8px 21.3px  0 0px;
+   transform: translateX(-42.6px);
+   animation: dots-i2eob1md 2s infinite linear;
+}
+
+@keyframes dots-i2eob1md {
+   12.5% {
+      box-shadow: 21.3px -21.3px 0 0px, 42.6px -21.3px 0 0px, 63.8px -21.3px 0 5.6px,
+          21.3px 0     0 5.6px, 42.6px 0     0 0px, 63.8px 0     0 5.6px,
+          21.3px 21.3px  0 0px, 42.6px 21.3px  0 0px, 63.8px 21.3px  0 0px;
+   }
+
+   25% {
+      box-shadow: 21.3px -21.3px 0 5.6px, 42.6px -21.3px 0 0px, 63.8px -21.3px 0 5.6px,
+          21.3px 0     0 0px, 42.6px 0     0 0px, 63.8px 0     0 0px,
+          21.3px 21.3px  0 0px, 42.6px 21.3px  0 5.6px, 63.8px 21.3px  0 0px;
+   }
+
+   50% {
+      box-shadow: 21.3px -21.3px 0 5.6px, 42.6px -21.3px 0 5.6px, 63.8px -21.3px 0 0px,
+          21.3px 0     0 0px, 42.6px 0     0 0px, 63.8px 0     0 0px,
+          21.3px 21.3px  0 0px, 42.6px 21.3px  0 0px, 63.8px 21.3px  0 5.6px;
+   }
+
+   62.5% {
+      box-shadow: 21.3px -21.3px 0 0px, 42.6px -21.3px 0 0px, 63.8px -21.3px 0 0px,
+          21.3px 0     0 5.6px, 42.6px 0     0 0px, 63.8px 0     0 0px,
+          21.3px 21.3px  0 0px, 42.6px 21.3px  0 5.6px, 63.8px 21.3px  0 5.6px;
+   }
+
+   75% {
+      box-shadow: 21.3px -21.3px 0 0px, 42.6px -21.3px 0 5.6px, 63.8px -21.3px 0 0px,
+          21.3px 0     0 0px, 42.6px 0     0 0px, 63.8px 0     0 5.6px,
+          21.3px 21.3px  0 0px, 42.6px 21.3px  0 0px, 63.8px 21.3px  0 5.6px;
+   }
+
+   87.5% {
+      box-shadow: 21.3px -21.3px 0 0px, 42.6px -21.3px 0 5.6px, 63.8px -21.3px 0 0px,
+          21.3px 0     0 0px, 42.6px 0     0 5.6px, 63.8px 0     0 0px,
+          21.3px 21.3px  0 5.6px, 42.6px 21.3px  0 0px, 63.8px 21.3px  0 0px;
+   }
+}
+

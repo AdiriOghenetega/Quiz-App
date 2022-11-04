@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import Question from "./question";
 import EndOfGame from "./endofgame";
+import Loader from "./loader/loader"
 
 function App() {
   const [questionData, setQuestionData] = useState();
@@ -46,7 +47,6 @@ let rightAnswer
   
     const {question,correct_answer,incorrect_answers,difficulty} = currentQuestionData
 
-    console.log(question)
   
     
      display =
@@ -64,7 +64,7 @@ let rightAnswer
    
       rightAnswer = questionData.map(item=>item.correct_answer)
   }else{
-    return "loading"
+    return <Loader />
   }
 
 
@@ -81,9 +81,7 @@ let rightAnswer
       setCorrect(false);
     }
   }
-  console.log(score)
-  console.log(correct)
-
+  
   function handleClick() {
     setCount((prev) => prev + 1);
     setAllowNext(false);
