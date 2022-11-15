@@ -1,4 +1,12 @@
-
+.loader__container{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: gray;
+}
 .dots {
    width: 4.5px;
    height: 4.5px;

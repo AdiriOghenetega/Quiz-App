@@ -111,14 +111,13 @@ let rightAnswer
         />
       ) : 
        <div className="qtn">
-       {questionData && display}
-      
-      <button
+       <div className="question__container">{questionData && display}</div>
+       <div className="next_btn"><button
         onClick={handleClick}
-        className={`next_btn ${allowNext ? "enable" : "disable"}`}
+        className={`${allowNext ? "enable" : "disable"}`}
       >
         {count >= questionData.length - 1 ? "Finish" : "Next"}
-      </button>
+      </button></div>
        </div>
       
       }
